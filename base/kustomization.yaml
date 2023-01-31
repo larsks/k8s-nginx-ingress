@@ -7,5 +7,4 @@ commonLabels:
   app.kubernetes.io/instance: nginx-ingress
 
 resources:
-  - https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
-
+  - https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.5.1/deploy/static/provider/cloud/deploy.yaml
